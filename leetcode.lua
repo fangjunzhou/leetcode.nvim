@@ -84,6 +84,9 @@ opts = {
 
     ---@type boolean
     image_support = false,
+
+    ---@type boolean
+    debug = true,
 }
 
 require("leetcode").setup(opts)
