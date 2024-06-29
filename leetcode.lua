@@ -87,6 +87,9 @@ opts = {
 
     ---@type boolean
     debug = true,
+
+    ---@type boolean
+    show_menu_when_expire = false,
 }
 
 require("leetcode").setup(opts)
